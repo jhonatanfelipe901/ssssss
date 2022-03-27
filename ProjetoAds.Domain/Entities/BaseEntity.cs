@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoAds.Domain.Entities
 {
+    //asas
     public class BaseEntity
     {
         public long Id { get; set; }
