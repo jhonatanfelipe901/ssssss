@@ -2613,11 +2613,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Application\\ProjetoAds.Application.csproj",
+      "projectUniqueName": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Application\\ProjetoAds.Application.csproj",
       "projectName": "ProjetoAds.Application",
-      "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Application\\ProjetoAds.Application.csproj",
+      "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Application\\ProjetoAds.Application.csproj",
       "packagesPath": "C:\\Users\\jhou1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Application\\obj\\",
+      "outputPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2639,14 +2639,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.CrossCutting\\ProjetoAds.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.CrossCutting\\ProjetoAds.CrossCutting.csproj"
+            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.CrossCutting\\ProjetoAds.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.CrossCutting\\ProjetoAds.CrossCutting.csproj"
             },
-            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj": {
-              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj"
+            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj": {
+              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj"
             },
-            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Infraestructure\\ProjetoAds.Data.csproj": {
-              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Infraestructure\\ProjetoAds.Data.csproj"
+            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Infraestructure\\ProjetoAds.Data.csproj": {
+              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Infraestructure\\ProjetoAds.Data.csproj"
             }
           }
         }

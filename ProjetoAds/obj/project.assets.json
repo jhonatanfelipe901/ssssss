@@ -3436,11 +3436,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds\\ProjetoAds.csproj",
+      "projectUniqueName": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds\\ProjetoAds.csproj",
       "projectName": "ProjetoAds",
-      "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds\\ProjetoAds.csproj",
+      "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds\\ProjetoAds.csproj",
       "packagesPath": "C:\\Users\\jhou1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds\\obj\\",
+      "outputPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3462,11 +3462,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Application\\ProjetoAds.Application.csproj": {
-              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Application\\ProjetoAds.Application.csproj"
+            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Application\\ProjetoAds.Application.csproj": {
+              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Application\\ProjetoAds.Application.csproj"
             },
-            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj": {
-              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj"
+            "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj": {
+              "projectPath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Domain\\ProjetoAds.Domain.csproj"
             }
           }
         }

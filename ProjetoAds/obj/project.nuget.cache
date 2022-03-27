@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tfioPy9/jeeoQjWSXoZ4lLE0+2f7tQUpmDtF+brHa8v35qrnT/IlShZ2b6E7HPeTUyNTfFaQmIWttvZit7EGOQ==",
+  "dgSpecHash": "QgIJN+2B1cYf8trt7prBW/h48jZdxaEbVlb5wrTKhmr2pCNZrSrWP0FBg8LaGmE2vlCmMxBYaluv+q7ZXdz2pQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds\\ProjetoAds.csproj",
+  "projectFilePath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds\\ProjetoAds.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhou1\\.nuget\\packages\\dapper\\1.60.6\\dapper.1.60.6.nupkg.sha512",
     "C:\\Users\\jhou1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

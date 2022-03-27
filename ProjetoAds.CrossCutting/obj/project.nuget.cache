@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DiTsF6Dt0k6QSoNmXcY14dgDlB02XMSlmgMaX5BKvnIv+F5IeWNh/WlSgBizW+dZG62wPp3r0pHjDGj9xbwH+A==",
+  "dgSpecHash": "/v2rN+ujvDqhZHU/54egEo7zG3ZGqU2RO1RSz0mqTof7Zf/uf9cakhFR5EId6WnN4CPPfnAxMtM6yycTjXIAiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.CrossCutting\\ProjetoAds.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.CrossCutting\\ProjetoAds.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhou1\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\jhou1\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.3\\microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",

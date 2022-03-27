@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SxQtf91pN7lQSdDKzaNF6MkUmSaN+pPYa7DCZQDeqoEyRB/fayowlgzLkO6P+VENvkWr9SXf/U5t2nh++UjZ2A==",
+  "dgSpecHash": "XMAzaK4RunnTPCPr6vJZufgTtZP4peYmP8JTgHUIkwDid4uG6B+bReLdzR6jBfMyRaFQT1o1Ed+gSHDaZyPBnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\ProjetoADS\\ProjetoAds\\ProjetoAds.Application\\ProjetoAds.Application.csproj",
+  "projectFilePath": "C:\\Users\\jhou1\\OneDrive\\Imagens\\Azure\\2\\ssssss\\ProjetoAds.Application\\ProjetoAds.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhou1\\.nuget\\packages\\dapper\\1.60.6\\dapper.1.60.6.nupkg.sha512",
     "C:\\Users\\jhou1\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
