@@ -1,0 +1,15 @@
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\bin\Release\net6.0\ProjetoAds.CrossCutting.deps.json
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\bin\Release\net6.0\ProjetoAds.CrossCutting.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\bin\Release\net6.0\ref\ProjetoAds.CrossCutting.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\bin\Release\net6.0\ProjetoAds.CrossCutting.pdb
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\bin\Release\net6.0\ProjetoAds.Domain.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\bin\Release\net6.0\ProjetoAds.Domain.pdb
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.AssemblyInfo.cs
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.csproj.CopyComplete
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ref\ProjetoAds.CrossCutting.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.CrossCutting\obj\Release\net6.0\ProjetoAds.CrossCutting.pdb

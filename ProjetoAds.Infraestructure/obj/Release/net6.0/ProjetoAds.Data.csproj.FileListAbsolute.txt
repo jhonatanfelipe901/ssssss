@@ -1,0 +1,17 @@
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ProjetoAds.Data.deps.json
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ProjetoAds.Data.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ref\ProjetoAds.Data.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ProjetoAds.Data.pdb
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ProjetoAds.CrossCutting.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ProjetoAds.Domain.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ProjetoAds.CrossCutting.pdb
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\bin\Release\net6.0\ProjetoAds.Domain.pdb
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.csproj.AssemblyReference.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.AssemblyInfoInputs.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.AssemblyInfo.cs
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.csproj.CoreCompileInputs.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.csproj.CopyComplete
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ref\ProjetoAds.Data.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Infraestructure\obj\Release\net6.0\ProjetoAds.Data.pdb

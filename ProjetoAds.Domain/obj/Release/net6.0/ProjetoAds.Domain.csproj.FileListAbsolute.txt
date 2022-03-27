@@ -1,0 +1,12 @@
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\bin\Release\net6.0\ProjetoAds.Domain.deps.json
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\bin\Release\net6.0\ProjetoAds.Domain.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\bin\Release\net6.0\ref\ProjetoAds.Domain.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\bin\Release\net6.0\ProjetoAds.Domain.pdb
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ProjetoAds.Domain.csproj.AssemblyReference.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ProjetoAds.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ProjetoAds.Domain.AssemblyInfoInputs.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ProjetoAds.Domain.AssemblyInfo.cs
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ProjetoAds.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ProjetoAds.Domain.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ref\ProjetoAds.Domain.dll
+C:\Users\jhou1\OneDrive\Imagens\Azure\ProjetoADS\ProjetoAds\ProjetoAds.Domain\obj\Release\net6.0\ProjetoAds.Domain.pdb

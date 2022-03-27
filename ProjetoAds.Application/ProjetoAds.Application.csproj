@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\Request\Category\" />
+    <Folder Include="DTO\Request\Evaluation\" />
+    <Folder Include="DTO\Response\Category\" />
+    <Folder Include="DTO\Response\Evaluation\" />
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoAds.CrossCutting\ProjetoAds.CrossCutting.csproj" />
+    <ProjectReference Include="..\ProjetoAds.Domain\ProjetoAds.Domain.csproj" />
+    <ProjectReference Include="..\ProjetoAds.Infraestructure\ProjetoAds.Data.csproj" />
+  </ItemGroup>
+
+</Project>
