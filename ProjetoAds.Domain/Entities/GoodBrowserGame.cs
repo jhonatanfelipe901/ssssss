@@ -10,6 +10,7 @@ namespace ProjetoAds.Domain.Entities
     {
         public long UserIdAdministrador { get; set; }
         public long IdCategoria { get; set; }
+        public string Nome { get; set; }
         public string Descricao { get; set; }
         public string UrlJogo { get; set; }
         public string UrlVideoDemonstracao { get; set; }
@@ -21,12 +22,13 @@ namespace ProjetoAds.Domain.Entities
         }
         private GoodBrowserGame(
             long id, long userIdAdministrador, long idCategoria,
-            string descricao, string urlJogo,
+            string nome, string descricao, string urlJogo,
             string urlVideoDemonstracao, string urlImagemIlustrativa, bool ativo)
         {
             Id = id;
             UserIdAdministrador = userIdAdministrador;
             IdCategoria = idCategoria;
+            Nome = nome;
             Descricao = descricao;
             UrlJogo = urlJogo;
             UrlVideoDemonstracao = urlVideoDemonstracao;
@@ -35,12 +37,13 @@ namespace ProjetoAds.Domain.Entities
         }
 
         private GoodBrowserGame(
-            long userIdAdministrador, long idCategoria, 
-            string descricao, string urlJogo, 
+            long userIdAdministrador, long idCategoria,
+            string nome, string descricao, string urlJogo, 
             string urlVideoDemonstracao, string urlImagemIlustrativa, bool ativo)
         {
             UserIdAdministrador = userIdAdministrador;
             IdCategoria = idCategoria;
+            Nome = nome;
             Descricao = descricao;
             UrlJogo = urlJogo;
             UrlVideoDemonstracao = urlVideoDemonstracao;
@@ -50,18 +53,18 @@ namespace ProjetoAds.Domain.Entities
 
         public static GoodBrowserGame CreateInstance(
             long userIdAdministrador, long idCategoria, 
-            string descricao, string urlJogo, 
+            string nome, string descricao, string urlJogo, 
             string urlVideoDemonstracao, string urlImagemIlustrativa, bool ativo)
         {
-            return new GoodBrowserGame(userIdAdministrador, idCategoria, descricao, urlJogo, urlVideoDemonstracao, urlImagemIlustrativa, ativo);
+            return new GoodBrowserGame(userIdAdministrador, idCategoria, nome, descricao, urlJogo, urlVideoDemonstracao, urlImagemIlustrativa, ativo);
         }
 
         public static GoodBrowserGame CreateInstanceUpdate(
             long id, long userIdAdministrador, long idCategoria,
-            string descricao, string urlJogo,
+            string nome, string descricao, string urlJogo,
             string urlVideoDemonstracao, string urlImagemIlustrativa, bool ativo)
         {
-            return new GoodBrowserGame(id, userIdAdministrador, idCategoria, descricao, urlJogo, urlVideoDemonstracao, urlImagemIlustrativa, ativo);
+            return new GoodBrowserGame(id, userIdAdministrador, idCategoria, nome, descricao, urlJogo, urlVideoDemonstracao, urlImagemIlustrativa, ativo);
         }
     }
 }

@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAds.Domain", "Projet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAds.Data", "ProjetoAds.Infraestructure\ProjetoAds.Data.csproj", "{F6978939-88DB-457B-821B-172B36083CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoAds.CrossCutting", "ProjetoAds.CrossCutting\ProjetoAds.CrossCutting.csproj", "{7C0327EC-BB95-4B89-9639-999B27DDC4A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAds.CrossCutting", "ProjetoAds.CrossCutting\ProjetoAds.CrossCutting.csproj", "{7C0327EC-BB95-4B89-9639-999B27DDC4A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

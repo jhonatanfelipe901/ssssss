@@ -10,10 +10,6 @@ namespace ProjetoAds.Application.DTO.Request.GoodBrowserGame
     public class GoodBrowserGamePutRequest : GoodBrowserGamePostRequest
     {
         [JsonIgnore]
-        [JsonProperty("Id")]
-        public long Id { get; set; }
-
-        [JsonIgnore]
         [JsonProperty("AdministradorId")]
         public long AdministradorId { get; set; }
     }

@@ -18,15 +18,16 @@ namespace ProjetoAds.Controllers
             _goodBrowserGameApplication = goodBrowserGameApplication;
         }
 
+        [Authorize]
         [HttpGet]
-        public async Task<BaseResponse<IEnumerable<GoodBrowserGameGetResponse>>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var usuarios = await _goodBrowserGameApplication.GetAll();
+            var goodBrowserGameList = await _goodBrowserGameApplication.GetAll();
 
-            return usuarios;
+            return BaseResponse<IEnumerable<GoodBrowserGameGetResponse>>(goodBrowserGameList);
         }
 
-
+        [Authorize]
         [HttpGet]
         [Route("{id:long}")]
         public async Task<IActionResult> Get(long id)
@@ -36,6 +37,7 @@ namespace ProjetoAds.Controllers
             return BaseResponse<GoodBrowserGameGetResponse>(goodBrowserGame);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] GoodBrowserGamePostRequest request)
         {
@@ -44,15 +46,19 @@ namespace ProjetoAds.Controllers
             return BaseResponse<GoodBrowserGameOperationResponse>(await _goodBrowserGameApplication.Insert(request));
         }
 
+        [Authorize]
         [HttpPut]
-        public async Task<IActionResult> Put([FromBody] GoodBrowserGamePutRequest request)
+        [Route("{id:long}")]
+        public async Task<IActionResult> Put(long id, [FromBody] GoodBrowserGamePutRequest request)
         {
             request.AdministradorId = Convert.ToInt64(GetUserLoggedInId());
 
-            return BaseResponse<GoodBrowserGameOperationResponse>(await _goodBrowserGameApplication.Update(request));
+            return BaseResponse<GoodBrowserGameOperationResponse>(await _goodBrowserGameApplication.Update(id, request));
         }
 
+        [Authorize]
         [HttpDelete]
+        [Route("{id:long}")]
         public async Task<BaseResponse<GoodBrowserGameOperationResponse>> Delete(long id)
         {
             return await _goodBrowserGameApplication.Delete(id);

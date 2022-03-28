@@ -17,6 +17,10 @@ namespace ProjetoAds.Application.DTO.Request.GoodBrowserGame
         [JsonProperty("CategoriaId")]
         public long CategoriaId { get; set; }
 
+        [Required(ErrorMessage = "O nome é obrigatório.")]
+        [JsonProperty("Nome")]
+        public string Nome { get; set; }
+
         [Required(ErrorMessage = "A descrição é obrigatória.")]
         [JsonProperty("Descricao")]
         public string Descricao { get; set; }

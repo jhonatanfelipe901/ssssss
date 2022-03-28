@@ -10,6 +10,9 @@ namespace ProjetoAds.Application.DTO.Response
 {
     public class GoodBrowserGameGetResponse
     {
+        [JsonProperty("Id")]
+        public long Id { get; set; }
+
         [JsonProperty("UserIdAdministrador")]
         public long UserIdAdministrador { get; set; }
 
@@ -43,6 +46,7 @@ namespace ProjetoAds.Application.DTO.Response
 
             return new GoodBrowserGameGetResponse()
             {
+                Id = goodBrowserGame.Id,
                 UserIdAdministrador = goodBrowserGame.UserIdAdministrador,
                 IdCategoria = goodBrowserGame.IdCategoria,
                 Descricao = goodBrowserGame.Descricao,

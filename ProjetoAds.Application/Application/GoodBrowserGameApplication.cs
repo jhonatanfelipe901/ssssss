@@ -3,13 +3,7 @@ using ProjetoAds.Application.DTO.Request.GoodBrowserGame;
 using ProjetoAds.Application.DTO.Response;
 using ProjetoAds.Application.DTO.Response.GoodBrowserGame;
 using ProjetoAds.Domain.Entities;
-using ProjetoAds.Domain.Repository;
 using ProjetoAds.Domain.Service.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoAds.Application.Application
 {
@@ -46,7 +40,7 @@ namespace ProjetoAds.Application.Application
         {
             return await Task.Run(() =>
             {
-                var goodBrowserGame = GoodBrowserGame.CreateInstance(request.AdministradorId, request.CategoriaId, request.Descricao, request.UrlJogo, request.UrlVideoDemonstracao, request.UrlImagemIlustrativa, request.Ativo);
+                var goodBrowserGame = GoodBrowserGame.CreateInstance(request.AdministradorId, request.CategoriaId, request.Nome, request.Descricao, request.UrlJogo, request.UrlVideoDemonstracao, request.UrlImagemIlustrativa, request.Ativo);
 
                 _goodBrowserGameService.Insert(goodBrowserGame);
 
@@ -54,11 +48,11 @@ namespace ProjetoAds.Application.Application
             });
         }
 
-        public async Task<BaseResponse<GoodBrowserGameOperationResponse>> Update(GoodBrowserGamePutRequest request)
+        public async Task<BaseResponse<GoodBrowserGameOperationResponse>> Update(long id, GoodBrowserGamePutRequest request)
         {
             return await Task.Run(() =>
             {
-                var goodBrowserGame = GoodBrowserGame.CreateInstanceUpdate(request.Id, request.AdministradorId, request.CategoriaId, request.Descricao, request.UrlJogo, request.UrlVideoDemonstracao, request.UrlImagemIlustrativa, request.Ativo);
+                var goodBrowserGame = GoodBrowserGame.CreateInstanceUpdate(id, request.AdministradorId, request.CategoriaId, request.Nome, request.Descricao, request.UrlJogo, request.UrlVideoDemonstracao, request.UrlImagemIlustrativa, request.Ativo);
 
                 _goodBrowserGameService.Update(goodBrowserGame);
 

@@ -15,7 +15,7 @@ namespace ProjetoAds.Data.Repository
     {
         public IEnumerable<GoodBrowserGame> GetAll()
         {
-            using (var connection = new SqlConnection("Server=tcp:projetomackenzie.database.windows.net,1433;Initial Catalog=bancoprojeto;Persist Security Info=False;User ID=raizchefe;Password=gCvNFgXN@f5ttnV;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+            using (var connection = new SqlConnection(Settings.AdsDatabase))
             {
                 connection.Open();
 
@@ -43,16 +43,17 @@ namespace ProjetoAds.Data.Repository
             {
                 connection.Open();
 
-                var query = $"INSERT INTO [dbo].[GoodBrowserGame] (UserIdAdministrador, IdCategoria, Descricao, UrlJogo," +
+                var query = $"INSERT INTO [dbo].[GoodBrowserGame] (UserIdAdministrador, IdCategoria, Nome, Descricao, UrlJogo," +
                             "UrlVideoDemonstracao, UrlImagemIlustrativa, Ativo, DataCriacao, DataAtualizacao)" +
                             "VALUES" +
-                            "(@UserIdAdministrador, @IdCategoria, @Descricao, @UrlJogo, @UrlVideoDemonstracao, @UrlImagemIlustrativa, @Ativo," +
+                            "(@UserIdAdministrador, @IdCategoria, @Nome, @Descricao, @UrlJogo, @UrlVideoDemonstracao, @UrlImagemIlustrativa, @Ativo," +
                             "GETDATE(), GETDATE())";
 
                 connection.Execute(query, new
                 {
                     UserIdAdministrador = goodBrowserGame.UserIdAdministrador,
                     IdCategoria = goodBrowserGame.IdCategoria,
+                    Nome = goodBrowserGame.Nome,
                     Descricao = goodBrowserGame.Descricao,
                     UrlJogo = goodBrowserGame.UrlJogo,
                     UrlVideoDemonstracao = goodBrowserGame.UrlVideoDemonstracao,
@@ -70,6 +71,7 @@ namespace ProjetoAds.Data.Repository
 
                 var query = $"UPDATE [dbo].[GoodBrowserGame] SET " +
                             "IdCategoria = @IdCategoria, " +
+                            "Nome = @Nome, " +
                             "Descricao = @Descricao, " +
                             "UrlJogo = @UrlJogo, " +
                             "UrlVideoDemonstracao = @UrlVideoDemonstracao, " +
@@ -82,6 +84,7 @@ namespace ProjetoAds.Data.Repository
                     Id = goodBrowserGame.Id,
                     UserIdAdministrador = goodBrowserGame.UserIdAdministrador,
                     IdCategoria = goodBrowserGame.IdCategoria,
+                    Nome = goodBrowserGame.Nome,
                     Descricao = goodBrowserGame.Descricao,
                     UrlJogo = goodBrowserGame.UrlJogo,
                     UrlVideoDemonstracao = goodBrowserGame.UrlVideoDemonstracao,

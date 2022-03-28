@@ -15,7 +15,7 @@ namespace ProjetoAds.Application.Contracts
         Task<BaseResponse<IEnumerable<GoodBrowserGameGetResponse>>> GetAll();
         Task<BaseResponse<GoodBrowserGameGetResponse>> Get(long id);
         Task<BaseResponse<GoodBrowserGameOperationResponse>> Insert(GoodBrowserGamePostRequest request);
-        Task<BaseResponse<GoodBrowserGameOperationResponse>> Update(GoodBrowserGamePutRequest request);
+        Task<BaseResponse<GoodBrowserGameOperationResponse>> Update(long id, GoodBrowserGamePutRequest request);
         Task<BaseResponse<GoodBrowserGameOperationResponse>> Delete(long id);
     }
 }
