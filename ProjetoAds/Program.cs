@@ -16,9 +16,9 @@ builder.Services.AddJwtBearerAuthentication(builder.Configuration);
 ConfigureSettings(builder);
 ConfigureServices(builder);
 
-builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+builder.Services.AddCors(p => p.AddDefaultPolicy(options =>
 {
-    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+    options.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
 }));
 
 var app = builder.Build();
