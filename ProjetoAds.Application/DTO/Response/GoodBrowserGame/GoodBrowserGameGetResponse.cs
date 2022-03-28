@@ -19,6 +19,9 @@ namespace ProjetoAds.Application.DTO.Response
         [JsonProperty("IdCategoria")]
         public long IdCategoria { get; set; }
 
+        [JsonProperty("Nome")]
+        public string Nome { get; set; }
+
         [JsonProperty("Descricao")]
         public string Descricao { get; set; }
 
@@ -49,6 +52,7 @@ namespace ProjetoAds.Application.DTO.Response
                 Id = goodBrowserGame.Id,
                 UserIdAdministrador = goodBrowserGame.UserIdAdministrador,
                 IdCategoria = goodBrowserGame.IdCategoria,
+                Nome = goodBrowserGame.Nome,
                 Descricao = goodBrowserGame.Descricao,
                 UrlJogo = goodBrowserGame.UrlJogo,
                 UrlVideoDemonstracao = goodBrowserGame.UrlVideoDemonstracao,
